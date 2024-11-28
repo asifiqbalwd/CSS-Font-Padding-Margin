@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS (Font-Padding-Margin)</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Assignment: Extended Example</title>
+        <style>
+            /* Global Styles */
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                color: #333;
+                background-color: #f4f4f9;
+            }
+
+            header {
+                background-color: #5d9cec;
+                color: white;
+                padding: 20px 15px;
+                text-align: center;
+            }
+
+            header h1 {
+                font-size: 2.5rem;
+                font-weight: bold;
+                margin: 0;
+            }
+
+            /* Content Section */
+            .container {
+                max-width: 1200px;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: white;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+            }
+
+            .section {
+                margin-bottom: 20px;
+            }
+
+            .section h2 {
+                font-size: 2rem;
+                font-weight: bold;
+                margin-bottom: 10px;
+                color: #5d9cec;
+            }
+
+            .section p {
+                font-size: 1rem;
+                margin-bottom: 15px;
+            }
+
+            .section .highlight {
+                background-color: #ffefc5;
+                padding: 10px;
+                margin: 10px 0;
+                border-left: 5px solid #ffa500;
+            }
+
+            /* Padding Example */
+            .padding-example {
+                background-color: #d4edda;
+                padding: 20px 40px;
+                font-size: 1rem;
+                border: 2px solid #28a745;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+
+            .padding-example2 {
+                background-color: #d4edda;
+                padding: 40px 40px;
+                font-size: 1rem;
+                border: 2px solid #28a745;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+
+            /* Margin Example */
+            .margin-example {
+                border: 2px dashed #6c757d;
+                padding: 15px;
+                margin: 20px 50px 30px 10px;
+                /* Top, Right, Bottom, Left */
+                font-size: 1rem;
+                background-color: #e2e3e5;
+            }
+
+            /* Footer Section */
+            footer {
+                background-color: #343a40;
+                color: white;
+                text-align: center;
+                padding: 15px 0;
+                margin-top: 30px;
+            }
+
+            footer p {
+                margin: 0;
+                font-size: 0.9rem;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <h1>CSS Assignment : Font Size | Padding | Margin</h1>
+        </header>
+
+        <!-- Main Container -->
+        <div class="container">
+            <!-- Section 1 -->
+            <div class="section">
+                <h2>Font Styling</h2>
+                <p>The font family used for this page is <strong>Arial</strong>.</p>
+                <div class="highlight">
+                    <p>Example: The header above uses a font size of 2.5rem (40px if base size is 16px).</p>
+                </div>
+            </div>
+
+            <!-- Section 2 -->
+            <div class="section">
+                <h2>Font Weight</h2>
+                <p>Adjusting font weight allows to make text bold or lighter for priority.</p>
+                <p style="font-weight: bold;"><strong>Bold text:</strong> This text is bold.</p>
+                <p style="font-weight: 300;"><strong>Light text:</strong> This text has a lighter weight (300).</p>
+            </div>
+
+            <!-- Section 3 -->
+            <div class="section">
+                <h2>Padding Example</h2>
+                <p>The box below demonstrates padding applied on all sides with a background color:</p>
+                <div class="padding-example">
+                    This box has 20px padding on the top, 40px padding on right, 20px padding on the Bottom and 40px
+                    padding on the left. <br>
+                    CSS Code:
+                    <code> {padding: 20px 40px 20px 40px;}</code>
+                </div>
+                <div class="padding-example2">
+                    This box has 40px padding on the top and bottom and 40px padding on the left and right. <br>
+                    CSS Code:
+                    <code> {padding: 40px 40px;}</code>
+                </div>
+
+            </div>
+
+            <!-- Section 4 -->
+            <div class="section">
+                <h2>Margin Example</h2>
+                <p>Margins are used to create space outside of an element. Below is a box with custom margins:</p>
+                <div class="margin-example">
+                    This box has custom margins: 20px top, 50px right, 30px bottom, and 10px left. <br>
+                    CSS Code:
+                    <code> {margin: 20px 50px 30px 10px;}</code>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Designed by Asif Iqbal | CSS Basics Assignment</p>
+        </footer>
+    </body>
+
+    </html>
+
+</body>
+
+</html>
