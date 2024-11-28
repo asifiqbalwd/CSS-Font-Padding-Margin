@@ -44,5 +44,6 @@ This project is a demonstration of CSS properties for font styling, padding, and
 
 ---
 
-Credits
-Design and Development: Asif Iqbal
+###### Credits
+
+- Design and Development: Asif Iqbal
